@@ -1,0 +1,25 @@
+{
+  "name": "cmd_server",
+  "version": "1.0.0",
+  "description": "특성화고 2020 취업 UP! 게임개발공모전 서울희망팟 CMD - Server (Koa, TS, MongoDB)",
+  "main": "src/index.ts",
+  "repository": "https://github.com/gtg7784/cmd_server.git",
+  "author": "gtg7784 <gtg7784@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon --watch src/ src/index.ts",
+    "db": "mongod --dbpath ./db"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.23",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
