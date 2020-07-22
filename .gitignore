@@ -3,3 +3,6 @@
 
 # ds store
 .DS_Store
+
+# dist
+./dist
