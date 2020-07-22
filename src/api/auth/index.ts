@@ -1,8 +1,9 @@
 import * as Router from 'koa-router';
-import { signin } from './auth.controller'
+import { signin, signup } from './auth.controller'
 
 const auth = new Router();
 
-auth.get('/signin', signin)
+auth.post('/signin', signin)
+auth.post('/signup', signup)
 
 export default auth;
