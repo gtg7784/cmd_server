@@ -1,0 +1,9 @@
+{
+  "name": "cmd_server",
+  "version": "1.0.0",
+  "description": "특성화고 2020 취업 UP! 게임개발공모전 서울희망팟 CMD - Server (Express, Typescript, MongoDB)",
+  "main": "app.ts",
+  "repository": "https://github.com/gtg7784/cmd_server.git",
+  "author": "gtg7784 <gtg7784@naver.com>",
+  "license": "MIT"
+}
